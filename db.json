@@ -1,0 +1,119 @@
+{
+    "GetActiveLocations": [
+        {
+            "isLocationOrDevice": true,
+            "isVisible": false,
+            "placementName": "Location1",
+            "placementIcon": "",
+            "placementStatus": "",
+            "placementTitle": "",
+            "placementId": null,
+            "internalName": 0
+        },
+        {
+            "isLocationOrDevice": true,
+            "isVisible": true,
+            "placementName": "Location2",
+            "placementIcon": "updating",
+            "placementStatus": "Updating",
+            "placementTitle": "Houston Local System A",
+            "placementId": null,
+            "internalName": 2
+        },
+        {
+            "isLocationOrDevice": true,
+            "isVisible": false,
+            "placementName": "Location3",
+            "placementIcon": "",
+            "placementStatus": "",
+            "placementTitle": "",
+            "placementId": null,
+            "internalName": 0
+        },
+        {
+            "isLocationOrDevice": true,
+            "isVisible": true,
+            "placementName": "Location4",
+            "placementIcon": "updating",
+            "placementStatus": "Updating",
+            "placementTitle": "Boulder Local System",
+            "placementId": null,
+            "internalName": 3
+        },
+        {
+            "isLocationOrDevice": false,
+            "isVisible": true,
+            "placementName": "Line4",
+            "placementIcon": "Alert",
+            "placementStatus": "Alert",
+            "placementTitle": "",
+            "placementId": null,
+            "internalName": 4
+        }
+    ],
+    "GetDeviceStats": [
+        {
+            "bearSecurityVersion": [
+                {
+                    "theLabel": "Bear v1.0",
+                    "theCount": 6
+                },
+                {
+                    "theLabel": "Bear v2.0",
+                    "theCount": 6
+                }
+            ],
+            "alerts": [
+                {
+                    "alertName": "Inbound Intrusion Attempt",
+                    "alertLevel": 1,
+                    "alertCount": 2,
+                    "sourceNames": [
+                        "Boulder LDC"
+                    ]
+                }
+            ],
+            "deviceTypes": [
+                {
+                    "theLabel": "WindowsServer",
+                    "theCount": 4
+                },
+                {
+                    "theLabel": "LinuxServer",
+                    "theCount": 4
+                },
+                {
+                    "theLabel": "HP OS 9.0.1",
+                    "theCount": 2
+                },
+                {
+                    "theLabel": "IoTDevice",
+                    "theCount": 4
+                },
+                {
+                    "theLabel": "Nest v2.3.0.4",
+                    "theCount": 4
+                },
+                {
+                    "theLabel": "Raspberry v4.5",
+                    "theCount": 2
+                },
+                {
+                    "theLabel": "Windows Server 2016",
+                    "theCount": 2
+                },
+                {
+                    "theLabel": "Windows 10",
+                    "theCount": 1
+                }
+            ],
+            "operatingSystems": [
+                {
+                    "theLabel": "Windows 10",
+                    "theCount": 1
+                }
+            ]
+        }
+    ],
+    "profile": { "name": "typicode" }
+  }
